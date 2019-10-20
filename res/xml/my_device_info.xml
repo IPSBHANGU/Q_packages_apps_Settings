@@ -115,6 +115,14 @@
         android:summary="@string/summary_placeholder"
         settings:controller="com.android.settings.deviceinfo.imei.ImeiInfoPreferenceController"/>
 
+    <!-- OneOs Version -->
+    <Preference
+        android:key="oneos_version"
+        android:order="33"
+        android:title="@string/oneos_version"
+        android:summary="@string/summary_placeholder"
+        settings:allowDividerAbove="true" />
+    
     <!-- Android version -->
     <Preference
         android:key="firmware_version"
